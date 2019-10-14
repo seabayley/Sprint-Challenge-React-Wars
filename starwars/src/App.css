@@ -1,8 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Square&display=swap');
+
 .App {
   text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+.card_container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5%;
+}
+
+.card-data-wrapper {
+  font-family: 'Nova Square', cursive;
+  border: 2px solid #0AE0DF;
+  box-shadow: 0px 0px 3px 1px #12a0a0, inset 0px 0px 3px 1px #12a0a0;
+}
